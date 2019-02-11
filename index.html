@@ -1,0 +1,27 @@
+<html>
+<head>
+  <!-- BUG #1 Ajoute normalize.css en utilsant un CDN ci-dessous -->
+  <!-- ... -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+  <link rel="stylesheet" href="./style.scss">
+</head>
+<body>
+
+  
+  <!-- BUG #2 Utilise les balises html5 -->
+  <div class="container">
+    <section class="main" id="main">
+      <header class="header">
+          <button class="button button--getposts">Get posts!</button>
+      </header>
+      <ul></ul>
+    </section>
+    <aside class="sidebar" id="sidebar">
+      <ul></ul>
+    </aside>
+  </div>
+
+
+  <script src="./index.js"></script>
+</body>
+</html>
